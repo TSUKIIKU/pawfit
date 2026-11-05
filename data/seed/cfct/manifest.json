@@ -1,0 +1,37 @@
+{
+  "dataset": "cfct",
+  "title": "中国食物成分表标准版（第6版）——能量和食物一般营养成分",
+  "source": {
+    "repo": "https://github.com/Sanotsu/china-food-composition-data",
+    "commit": "d15675c27582748307023b7ee7aca2a63fc52756",
+    "commitDate": "2026-09-08T10:32:45Z",
+    "sourceDir": "json_data_v3_20260825_qwen38max_kimi_k3_fixed_en",
+    "giFile": "json_gi_of_foods/glycemic_index_of_foods.json",
+    "url": "https://github.com/Sanotsu/china-food-composition-data/tree/d15675c27582748307023b7ee7aca2a63fc52756/json_data_v3_20260825_qwen38max_kimi_k3_fixed_en"
+  },
+  "fetchedAt": "2026-11-05T07:13:07.768Z",
+  "counts": {
+    "categories": 61,
+    "foods": 1677,
+    "uniqueFoodCodes": 1677,
+    "withEnglishName": 1242,
+    "giGroups": 11,
+    "giEntries": 259
+  },
+  "files": {
+    "foods": {
+      "path": "foods.json",
+      "bytes": 1423065,
+      "sha256": "2eeda326541dbb2fce979219531810f1194d4215ba78180f18389ca1069f0845"
+    },
+    "gi": {
+      "path": "gi.json",
+      "bytes": 25947,
+      "sha256": "bdd837a6bc4f0e59514a1ed854a03312d20b5aa1b6ff72a70e179f60464cb54e"
+    }
+  },
+  "license": {
+    "spdx": "NOASSERTION",
+    "note": "源仓库未声明开源许可证；数据整理自《中国食物成分表标准版（第6版）》纸质书，版权归原作者及出版社。仅作学习研究用途，商用需自行获得授权。"
+  }
+}
